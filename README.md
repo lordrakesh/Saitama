@@ -21,3 +21,9 @@
 - Written in [TypeScript](https://www.typescriptlang.org/)
 - Self-Resoting Auth
 - Built with [Baileys](https://github.com/adiwajshing/baileys) (The Best WhatsApp Library Out There) 
+-
+## 🌐 Join Us
+
+### 🟢 WhatsApp Group
+
+# [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/JSpzoZ2bwCa13318uGCaLe)
