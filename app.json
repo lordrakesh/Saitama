@@ -11,8 +11,8 @@
       "whatsapp-sticker-bot",
       "whatsapp-botto"
     ],
-    "repository": "https://github.com/well300/sukuna.git",
-    "logo": "https://pbs.twimg.com/media/Eu4b9JaXEAAeByb.jpg",
+    "repository": "https://github.com/lordrakesh/Saitama.git",
+    "logo": "https://i.postimg.cc/507GZ56C/b36131ee332b15db34c3343465125a68.jpg",
     "success_url": "/",
     "env": {
       "PREFIX": {
