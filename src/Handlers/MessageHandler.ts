@@ -18,7 +18,7 @@ export default class MessageHandler {
             https://adiwajshing.github.io/Baileys/enums/proto.webmessageinfo.webmessageinfostatus.html#server_ack
             */
             M.sender.jid = this.client.user.jid
-            M.sender.username = this.client.user.name || this.client.user.vname || this.client.user.short || 'sukuna'
+            M.sender.username = this.client.user.name || this.client.user.vname || this.client.user.short || 'Saitama'
         } else if (M.WAMessage.key.fromMe) return void null
 
         if (M.from.includes('status')) return void null
@@ -38,7 +38,7 @@ export default class MessageHandler {
                         return void M.reply(res.data.cnt)
                     })
                     .catch(() => {
-                        M.reply(`Eeeh...`)
+                        M.reply(`Sorry Friemds no Autographs Please 🥚...`)
                     })
             }
         }
@@ -64,7 +64,7 @@ export default class MessageHandler {
         const user = await this.client.getUser(M.sender.jid)
         if (user.ban) return void M.reply("You're Banned from using commands.")
         const state = await this.client.DB.disabledcommands.findOne({ command: command.config.command })
-        if (state) return void M.reply(`♨ This command is disabled${state.reason ? ` for ${state.reason}` : ''}`)
+        if (state) return void M.reply(`☕ This command is disabled${state.reason ? ` for ${state.reason}` : ''}`)
         if (!command.config?.dm && M.chat === 'dm') return void M.reply('This command can only be used in groups')
         if (command.config?.adminOnly && !M.sender.isAdmin)
             return void M.reply(`Only admins are allowed to use this command`)
