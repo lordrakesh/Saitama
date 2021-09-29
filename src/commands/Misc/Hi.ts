@@ -17,12 +17,12 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const n = [
-            './assets/videos/Sukuna/sukuna-hi.mp4'
+            './assets/videos/Sukuna/Saitama-hi.mp4'
         ]
-        let sukuna = n[Math.floor(Math.random() * n.length)]
-        return void this.client.sendMessage(M.from, { url: sukuna }, MessageType.video, {
+        let saitama = n[Math.floor(Math.random() * n.length)]
+        return void this.client.sendMessage(M.from, { url: saitama }, MessageType.video, {
             mimetype: Mimetype.gif,
-            caption: `火 ɠαɱზαɾҽ ɠαɱზαɾҽ.. \n` }
+            caption: `ᑕᕼᗴᑕK ᗰᗩTᗴ 🐝.. \n` }
         )
     }
 }
